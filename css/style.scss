@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: irs;
+    direction: rtl;
+}
+body{
+    background-color: #d3eaf6;
+}
+*{
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: 0%;
+    box-sizing: inherit;
+}
+*::before,*:after{
+    box-sizing: inherit;
+    font-family: fonticon;
+    vertical-align: middle;
+}
+a,a:focus, a:visited, a:active{
+    text-decoration: none;
+}
+a,span{
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+}
